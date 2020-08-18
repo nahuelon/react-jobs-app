@@ -33,7 +33,7 @@ const App : React.FC = () => {
         history.push('/signin')
       }
     })
-  })
+  }, [dispatch, history])
 
   return (
     <div className="container">
